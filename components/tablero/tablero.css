@@ -2,3 +2,23 @@
    
     background-color:rgb(20, 31, 241);            
 }
+
+.div-tablero {
+    background-color: rgb(194, 211, 211);
+
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,8rem);
+    gap: 1rem;
+}
+
+.div-item {
+    border: 1px solid black;
+    border-radius: 3px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
