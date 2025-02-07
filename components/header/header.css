@@ -1,4 +1,37 @@
-.header{
-    
-    background-color: rgb(210, 23, 23);
+.contenedor_principal {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 20px;
+}
+
+.contenedor_icono img {
+    width: 80px;
+    height: 80px;
+  
+    border-radius: 10px;
+    background: none;
+    object-fit: contain;
+}
+
+.contenedor_botones {
+    display: flex;
+    gap: 10px;
+}
+
+.nivel-boton {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(42, 40, 40);
+    background-color: #2e6198;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nivel-boton:hover {
+    background-color: #0f83ff;
+    color: white;
 }

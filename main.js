@@ -1,5 +1,5 @@
 import { cargarCartas } from "./components/tablero/tablero.js"
-
+import { contenedorPrincipal } from "./components/header/header.js";
 cargarCartas();
 let DOM=document.querySelector("#root")
 
@@ -8,6 +8,7 @@ contenedor.className="contenedor"
 
 let header=document.createElement("header")
 header.className="header"
+header.appendChild(contenedorPrincipal)
 
 let prpgreso=document.createElement("nav")
 prpgreso.className="progreso"
