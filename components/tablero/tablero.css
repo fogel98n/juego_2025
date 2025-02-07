@@ -1,14 +1,11 @@
-.tablero{
-   
-    background-color:rgb(20, 31, 241);            
-}
+
 
 .div-tablero {
-    background-color: rgb(194, 211, 211);
-
+    
+margin-top:2rem;
     display: grid;
     grid-template-columns: repeat(8,1fr);
-    grid-template-rows: repeat(8,8rem);
+    grid-template-rows: repeat(5,8rem);
     gap: 1rem;
 }
 
