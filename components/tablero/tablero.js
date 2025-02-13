@@ -5,19 +5,23 @@ function item(contenido) {
     div.className = "div-item";
     div.innerText = contenido;
 
+    
+  
+    
+
     return div;
 }
 
-function cargarCartas(){
+function cargarCartas() {
     let div = document.createElement('div');
     div.className = "div-tablero";
-    todas_las_cartas.forEach((letra)=>{
+    todas_las_cartas.forEach((letra) => {
         div.appendChild(item(letra));
-
     });
 
+    
 
     return div;
 }
 
-export { cargarCartas }
+export { cargarCartas };

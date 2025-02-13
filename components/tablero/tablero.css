@@ -19,3 +19,11 @@ margin-top:2rem;
     
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
+.div-item:hover{
+    border: 2px solid red;
+    background-color:red;
+    transition:0.1s;
+}
+.marcado{
+    background-color:red;
+}
