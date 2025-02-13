@@ -1,10 +1,14 @@
-import { cargarCartas } from "./components/tablero/tablero.js";
 
 
     let DOM = document.querySelector("#root");
 
+let header=document.createElement("header")
+header.className="header"
+header.appendChild(contenedorPrincipal)
+=======
     let contenedor = document.createElement("div");
     contenedor.className = "contenedor";
+
 
     let header = document.createElement("header");
     header.className = "header";
