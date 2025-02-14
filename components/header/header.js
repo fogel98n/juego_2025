@@ -2,7 +2,7 @@ let contenedor1 = document.createElement("div")
 contenedor1.className = "contenedor_icono"
 
 let contenedorPrincipal = document.createElement("div")
-contenedorPrincipal.className = "contenedor_principal"
+contenedorPrincipal.className = "contenedorprincipal"
 contenedorPrincipal.appendChild(contenedor1)
 
 let icono = document.createElement("img")

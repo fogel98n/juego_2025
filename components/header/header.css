@@ -1,14 +1,14 @@
-.contenedor_principal {
+.contenedorprincipal {
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between; /* Esto hace que los elementos se distribuyan en los extremos */
     gap: 20px;
 }
 
 .contenedor_icono img {
     width: 80px;
     height: 80px;
-  
     border-radius: 10px;
     background: none;
     object-fit: contain;
@@ -17,6 +17,7 @@
 .contenedor_botones {
     display: flex;
     gap: 10px;
+    margin-left: auto; /* Esto empuja los botones hacia la derecha */
 }
 
 .nivel-boton {
